@@ -39,22 +39,6 @@ public class SecondFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        /*relativeLayout = getView().findViewById(R.id.rlVar1);
-
-        Bundle bundle = getArguments();
-        String color = bundle.getString("color");
-
-        if(color == "blue") {
-            relativeLayout.setBackgroundColor(R.color.blue);
-        }
-
-        if(color == "black") {
-            relativeLayout.setBackgroundColor(R.color.black);
-        }
-
-        if(color == "red") {
-            relativeLayout.setBackgroundColor(R.color.red);
-        }*/
 
         return inflater.inflate(R.layout.fragment_second, container, false);
 
